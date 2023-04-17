@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  background-color: rgb(27, 27, 27);
+  padding: 0 30%;
+}
+
+@media screen and (max-width: 1300px) {
+  body{
+    padding: 0 20%;
+  }
+  
+}
+
+@media screen and (max-width: 1000px) {
+  body{
+    padding: 0 10%;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+  body{
+    padding: 0 5%;
+  }
+  
+}
